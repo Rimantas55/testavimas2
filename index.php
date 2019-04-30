@@ -10,6 +10,9 @@
         h1 {
             font-size: <?php print rand(1,30) . "pt";?>;
         }
+        p {
+            color: rgb(<?php print rand(0,255) . "," . rand(0,255) . "," . rand(0,255); ?>);
+        }
     </style>
     <title>PHP lydes ir <?php echo "ryt " . date("Y-m-d", strtotime('+1 days')); ?> </title>
 </head>
