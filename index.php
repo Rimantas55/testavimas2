@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>As valdau HTML <?php echo "ir PHP"; ?></title>
-
+    <title>As, <?php echo "Antradienis ir PHP"; ?> </title>
 </head>
 <body>
-<h1>Vardas - HTML <?php echo "ir PHP assas/e!"; ?></h1>
-<p>Kuriu dinamini turini. Atidaryta <?php echo date('Y-m-d H:i:s'); ?></p>
+<h1>Vardas - HTML <?php echo "ir PHP"; ?> asas/e jau nuo <?php echo date('Y'); ?></h1>
+<p>Viskas prasidejo <?php echo date('m') .  " menesio, " . date('d'). " diena!"; ?></p>
 
 </body>
 
