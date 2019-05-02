@@ -13,6 +13,7 @@
         p {
             color: rgb(<?php print rand(0,255) . "," . rand(0,255) . "," . rand(0,255); ?>);
         }
+
     </style>
     <title>PHP lydes ir <?php echo "ryt " . date("Y-m-d", strtotime('+1 days')); ?> </title>
 </head>
@@ -30,22 +31,24 @@
 <p>keiciam spalvas su php</p>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>
 
 
-<?php
-//
-//print "Tekstas padarytas su php";
-//
-//print "<br>";
-//
-//print date('Y-m-d H:i:s');
-//
-//print "<br>";
-//
-//?>
+
 
 
 
